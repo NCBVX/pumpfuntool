@@ -20,17 +20,17 @@ export default function Theme({ children }: Props) {
         palette: {
           mode: darkMode ? "dark" : "light",
           background: {
-            default: color("#f7f7f7", "#000"),
+            default: color("#00734e", "#1b1d28"),
           },
           color: {
-            cardBg: color("#1E88E5", "#121212"),
+            cardBg: color("#1E88E5", "#1b1d28"),
           },
         },
         components: {
           MuiAppBar: {
             styleOverrides: {
               colorPrimary: {
-                background: color("#1976d2", "#2d2d2d")
+                background: color("#1976d2", "#1b1d28")
               }
             }
           }
