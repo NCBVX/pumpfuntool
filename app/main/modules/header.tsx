@@ -26,7 +26,7 @@ export default function Header() {
           <Menu />
         </IconButton>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          PumpFun
+          PumpHub
         </Typography>
         {loading ? (
           <CircularProgress color="inherit" size={14} />
